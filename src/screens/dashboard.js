@@ -2,8 +2,20 @@ import React from 'react';
 
 function Dashboard() {
     return (
-        <div >
-            Hello world this is Dashboard
+        <div className={"wrapper"}>
+            <div className={"item"}>
+                <img src={require("../images/img.jpg")} alt=""/>
+                <p>lore lorem lorem lorem </p>
+            </div>
+            <div className={"item"}>
+                <img src={require("../images/img.jpg")} alt=""/>
+                <p>lore lorem lorem lorem </p>
+            </div>
+            <div className={"item"}>
+                <img src={require("../images/img.jpg")} alt=""/>
+                <p>lore lorem lorem lorem </p>
+            </div>
+
         </div>
     );
 }
